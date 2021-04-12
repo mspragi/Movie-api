@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./ap1.css">
+    <title>Movie Api</title>
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1" style="color: wheat;">Movie Api</span>
+          <form action="/" id="moviesearch">
+            <div class="form-group col-md-6 ">
+                <input type="text" placeholder="Search Movie" style="width: 460px;position: relative;top: 10px;" id="search" class="form-control"/>
+            </div>
+        </form>
+        </div>
+      </nav>
+          
+   <div class="container" style="position: relative;top: 66px;">
+    <div id="template" class="row">
+    </div>
+</div>
+</div>
+    <script src="./jquery-3.5.1.js"></script>
+    <script src="./api.js"></script>
+    <script src="./bootstrap-4.5.3-dist/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script>
+        getMovie();  
+    </script> -->
+</body>
+</html>
